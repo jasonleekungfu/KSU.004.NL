@@ -1,0 +1,1 @@
+plot "<paste enh_I-shell1.dat enh_I-shell2.dat" u 1:2:6 w filledcurves lc 'blue' fs transparent solid 0.3 t 'Core-shell', '' u 1:2 w l lc 'blue' t '', '' u 1:6 w l lc 'blue' t '', "<paste enh_I-solid1.dat enh_I-solid2.dat" u 1:2:6 w filledcu lc 'red' fs transparent solid 0.3 t 'Solid Au', '' u 1:2 w l lc 'red' t '', '' u 1:6 w l lc 'red' t ''
